@@ -1,13 +1,16 @@
 <template>
   <div id="app">
+    <create-note-form></create-note-form>
     <notes></notes>
   </div>
 </template>
 <script>
   import Notes from './components/notes/Index'
+  import CreateNoteForm from './components/notes/Create'
   export default {
     components: {
-      Notes
+      Notes,
+      CreateNoteForm
     }
   }
 </script>
