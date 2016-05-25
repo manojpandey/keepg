@@ -1,16 +1,20 @@
 <template>
-  <ol>
-    <li v-for="note in notes">
-      <pre>
-        {{note | json}}
-      </pre>
-    </li>
-  </ol>
+  <div class="notes">
+      <note
+        v-for="note in notes"
+        :note="note"
+        >
+      </note>
+  </div>
 </template>
 <script>
 // add js here
 import Firebase from 'firebase'
+import Note from './Note'
 export default {
+  components: {
+    Note
+  },
   data () {
     return {
       notes: []
@@ -26,4 +30,7 @@ export default {
 }
 </script>
 <style>
+  .notes{
+    padding: 0 100px;
+  }
 </style>
