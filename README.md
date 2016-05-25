@@ -1,6 +1,7 @@
-# gkeep-clone
+# keepg
+:ship: Google Keep clone using node and Firebase. Hosted on Firebase @ 
 
-> A Google keep clone made using vue.js and Firebase
+> A Google keep clone made using node, vue.js and Firebase
 
 ## Build Setup
 
@@ -25,3 +26,5 @@ npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+# Licence: `MIT`
