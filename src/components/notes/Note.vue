@@ -19,9 +19,8 @@
     border-radius: 2px;
     box-shadow: 0 2px 5px #ccc;
     padding: 10px;
+    margin: 8px 0;
     width: 240px;
-    margin: 16px;
-    float: left;
   }
   .note h1{
     font-size: 1.1em;
